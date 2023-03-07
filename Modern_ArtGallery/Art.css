@@ -1,0 +1,112 @@
+body
+{
+    background-color:#FFFFFF;
+    margin:0;
+}
+.top
+{
+    width:100%;
+    height:130%;
+    display:flex;
+    flex-direction:row;
+    background-color: blue;
+}
+.black
+{
+    width:30%;
+    height:70%;
+    background-color: black;
+}
+.white
+{
+    background:transparent;
+    z-index:1;
+    width:30%;
+    height:70%;
+    background-color:#E5E6E8;
+}
+.white img
+{
+    width:100%;
+    height:90%;
+}
+
+.middle
+{
+    width:90%;
+    height:60%;
+    display:flex;
+    padding-left:10%;
+    background-color: blueviolet;
+}
+.left
+{
+    width:30%;
+    height:100%;
+   
+}
+.right
+{
+    width:60%;
+    height:100%;
+   
+}
+.bold
+{
+    font-family:sans-serif;
+    font-size:48px;
+    font-weight:bolder;
+}
+.context
+{
+    font-family:sans-serif;
+    font-size:15px;
+    font-weight:normal;
+    line-height:25px;
+}
+.right img
+{
+    width:80%;
+    height:100%;
+    margin-left:20%;
+}
+.grid
+{
+    width:90%;
+    height:100%;
+    display:grid;
+    border:2px solid black;
+    grid-template-columns:auto auto;
+    margin-left:5%;
+    margin-top:3%;
+    margin-right:2%;
+    background-color: aquamarine;
+}
+.grid div
+{
+    border:2px solid black;
+}
+
+.first
+{
+    height:100%;
+    background-color: chartreuse;
+    grid-row:1/span 2;
+}
+.sec
+{
+    background-color:chocolate;
+    height:50%;
+}
+.sec img
+{
+    image-orientation: inherit;
+}
+
+.third
+{
+    width: 100%;
+    height: 20%;
+    
+}
+
